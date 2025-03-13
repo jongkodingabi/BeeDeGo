@@ -79,17 +79,17 @@ export default {
       {
         name: "Abisam Hazim",
         text: "Luar biasa! Desain yang dibuat sangat profesional dan sesuai dengan keinginan saya. Timnya juga responsif dan mudah diajak diskusi. Hasil akhirnya melebihi ekspektasi saya!",
-        image: "./src/assets/myPhoto.jpg",
+        image: "/public/myPhoto.jpg",
       },
       {
         name: "Abisam Hazim",
         text: "'Sangat puas dengan jasa desain ini! Detailnya rapi, kreatif, dan sesuai dengan konsep yang saya inginkan. Pelayanan cepat dan hasilnya berkualitas tinggi. Highly recommended!''",
-        image: "./src/assets/myPhoto.jpg",
+        image: "/public/myPhoto.jpg",
       },
       {
         name: "Abisam Hazim",
         text: "Jasa desain terbaik yang pernah saya gunakan! Tidak hanya hasilnya yang memukau, tetapi juga proses pengerjaannya cepat dan komunikasinya sangat baik. Pasti akan order lagi",
-        image: "./src/assets/myPhoto.jpg",
+        image: "/public/myPhoto.jpg",
       },
     ];
     return { testimonials, Autoplay, Pagination };
