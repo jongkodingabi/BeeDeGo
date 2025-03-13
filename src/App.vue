@@ -5,6 +5,8 @@ import Service from "./components/Service.vue";
 import Navbar from "./components/Navbar.vue";
 import Showcase from "./components/Showcase.vue";
 import Contact from "./components/Contact.vue";
+import Footer from "./components/Footer.vue";
+import Testimoni from "./components/Testimoni.vue";
 </script>
 
 <template>
@@ -13,7 +15,9 @@ import Contact from "./components/Contact.vue";
   <About />
   <Service />
   <Showcase />
+  <Testimoni />
   <Contact />
+  <Footer></Footer>
 </template>
 
 <style scoped>

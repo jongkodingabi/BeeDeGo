@@ -14,7 +14,7 @@
       >
     </h1>
     <div
-      class="border-t-2 border-gray-700 w-100 h-10 mt-4"
+      class="border-t-2 border-gray-700 w-80 h-10 mt-4"
       data-aos="fade-up"
     ></div>
     <img src="/public/image.png" alt="Logo" data-aos="fade-up" />

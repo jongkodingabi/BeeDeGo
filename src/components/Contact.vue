@@ -1,6 +1,6 @@
 <template>
   <section id="contact">
-    <div class="h-full bg-black py-6 flex flex-col justify-center sm:py-12">
+    <div class="h-full bg-black py-6 flex flex-col justify-center sm:py-20">
       <div class="flex justify-center items-center mr-2">
         <div class="box mr-4 mb-2">
           <div class="green">
@@ -153,67 +153,69 @@
           d="m18.294 16.793-5.293 5.293V1h-1v21.086l-5.295-5.294-.707.707L12.501 24l6.5-6.5-.707-.707z"
         />
       </svg>
-      <div class="relative py-3 sm:max-w-xl sm:mx-auto group mt-10">
+      <div
+        class="relative py-3 sm:max-w-lg mx-auto group mt-10 px-4 sm:px-0 mb-14"
+      >
         <div
-          class="group-hover:rotate-6 group-hover:scale-105 hover:border-indigo-500 absolute inset-0 bg-gradient-to-r from-indigo-700 to-purple-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl ease-in-out transition-all duration-300"
+          class="group-hover:rotate-3 group-hover:scale-105 hover:border-indigo-500 absolute inset-0 bg-gradient-to-r from-indigo-700 to-purple-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl ease-in-out transition-all duration-300"
         ></div>
         <div
-          class="text-white relative px-4 py-10 bg-gray-950 shadow-lg sm:rounded-3xl sm:p-20"
+          class="text-white mx-auto relative px-6 py-10 bg-gray-950 shadow-lg sm:rounded-3xl sm:p-12"
         >
           <div class="text-center pb-6">
-            <h1 class="text-3xl">Contact Us!</h1>
-
-            <p class="text-gray-300">
+            <h1 class="text-2xl sm:text-3xl">Contact Us!</h1>
+            <p class="text-gray-300 text-sm sm:text-base">
               Fill up the form below to send us a message.
             </p>
           </div>
 
-          <form action="https://fabform.io/f/{form-id}" method="post">
+          <form action="#">
             <input
-              class="text-white shadow mb-4 appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
+              class="text-white shadow mb-4 border rounded w-full py-2 px-3 text-lg focus:outline-none focus:shadow-outline"
               type="text"
               placeholder="Name"
               name="name"
             />
 
             <input
-              class="text-white shadow mb-4 appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
+              class="text-white shadow mb-4 border rounded w-full py-2 px-3 text-lg focus:outline-none focus:shadow-outline"
               type="email"
               placeholder="Email"
               name="email"
             />
 
             <input
-              class="text-white shadow mb-4 appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
+              class="text-white shadow mb-4 border rounded w-full py-2 px-3 text-lg focus:outline-none focus:shadow-outline"
               type="text"
               placeholder="Subject"
               name="_subject"
             />
 
             <textarea
-              class="shadow mb-4 min-h-0 appearance-none border rounded h-64 w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
-              type="text"
+              class="shadow mb-4 border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
               placeholder="Type your message here..."
               name="message"
               style="height: 121px"
             ></textarea>
 
-            <div class="flex justify-between">
+            <div class="flex flex-col sm:flex-row justify-between">
               <input
-                class="shadow bg-linear- text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                class="shadow bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full sm:w-auto mb-2 sm:mb-0"
                 type="submit"
                 value="Send"
               />
               <input
-                class="shadow bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                class="shadow bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full sm:w-auto"
                 type="reset"
               />
             </div>
+
             <a
               href="https://veilmail.io/e/FkKh7o"
-              class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
-              >Or click here to reveal our protected email address</a
+              class="font-medium text-blue-600 dark:text-blue-500 hover:underline block mt-4 text-center sm:text-left"
             >
+              Or click here to reveal our protected email address
+            </a>
           </form>
         </div>
       </div>
