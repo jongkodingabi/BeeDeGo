@@ -114,6 +114,7 @@ const menuItems = [
   { name: "About", link: "#about" },
   { name: "Services", link: "#services" },
   { name: "Showcase", link: "#showcase" },
+  { name: "Testimoni", link: "#testimoni" },
   { name: "Contact", link: "#contact" },
 ];
 

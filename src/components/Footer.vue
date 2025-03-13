@@ -55,13 +55,13 @@
             </li>
           </ul>
         </div>
-        <div class="w-full px-4 mb-12 md:w-1/3">
+        <div class="w-full px-4 mb-12 md:w-1/3 mt-24">
           <h3 class="font-semibold text-xl text-white mb-5">Hyperlink</h3>
           <ul class="text-slate-300">
             <li>
               <a
                 href="#home"
-                class="inline-block text-base hover:text-primary mb-3"
+                class="text-gray-500 hover:text-gray-700 inline-block text-base hover:text-primary mb-3"
                 >Home</a
               >
             </li>
@@ -69,7 +69,7 @@
             <li>
               <a
                 href="#about"
-                class="inline-block text-base hover:text-primary mb-3"
+                class="text-gray-500 hover:text-gray-700 inline-block text-base hover:text-primary mb-3"
                 >About</a
               >
             </li>
@@ -77,46 +77,30 @@
             <li>
               <a
                 href="#services"
-                class="inline-block text-base hover:text-primary mb-3"
+                class="text-gray-500 hover:text-gray-700 inline-block text-base hover:text-primary mb-3"
                 >Services</a
               >
             </li>
 
             <li>
               <a
-                href="#portofolio"
-                class="inline-block text-base hover:text-primary mb-3"
-                >Portofolio</a
+                href="#showcase"
+                class="text-gray-500 hover:text-gray-700 inline-block text-base hover:text-primary mb-3"
+                >Showcase</a
               >
             </li>
             <li>
               <a
-                href="#skills"
-                class="inline-block text-base hover:text-primary mb-3"
-                >Skills</a
-              >
-            </li>
-
-            <li>
-              <a
-                href="#certificate"
-                class="inline-block text-base hover:text-primary mb-3"
-                >Certificate</a
-              >
-            </li>
-
-            <li>
-              <a
-                href="#quote"
-                class="inline-block text-base hover:text-primary mb-3"
-                >Quote</a
+                href="#testimoni"
+                class="text-gray-500 hover:text-gray-700 inline-block text-base hover:text-primary mb-3"
+                >Testimonials</a
               >
             </li>
 
             <li>
               <a
                 href="#contact"
-                class="inline-block text-base hover:text-primary mb-3"
+                class="text-gray-500 hover:text-gray-700 inline-block text-base hover:text-primary mb-3"
                 >Contact</a
               >
             </li>
